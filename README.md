@@ -3,16 +3,17 @@ EUInstruct is a repository of instruction dataset in (non-English) European lang
 
 Following the release of LLama in February 2023, there has been a swift development of instruction datasets to fine-tune LLMs for conversational uses or on specific tasks. Yet theses dataset are largely focused on English and to a lesser extent on Chinese. 
 
-This project strives to compile all the available instruction dataset for European languages. It aims to support a wider multilingual ecosystem of open source LLMs. This include two major collections:
+This project strives to compile the available instruction dataset for European languages, with the wider aim to support a wider multilingual ecosystem of open source LLMs. This include two major collections:
 * Original instructions in 28 European languages.
 * Translated instructions in a smaller selections of European languages.
 
-Our main sources include:
+Our main sources include for original instructions:
 * Guanaco
 * ShareGPT
 * OpenAssistant
 * Stack-Exchange-Paired (heavily filtered as language detection is harmed by the high prevalence of math/programming syntax)
 
+## Structure
 All datasets are ordered by languages and follow the established structure of Alpaca-style datasets (instruction-input-output). EUinstruct can consequently be used to train a language-specific LLM or a multilingual LLM when relevant. For instance a "Swiss LLM" could cross the German-speaking, French-speaking and Italian-speaking dataset.
 
 The provenance of each instruction is integrated at the data level with a "source" attribute. This makes it easy to filter in or out some dataset. Additionally, each instruction has a unique ID that is either the original one from the dataset or, by default, the ordering id. A sample of italian-speaking instruction is structured this way:
