@@ -7,6 +7,12 @@ This project strives to compile all the available instruction dataset for Europe
 * Original instructions in 28 European languages.
 * Translated instructions in a smaller selections of European languages.
 
+Our main sources include:
+* Guanaco
+* ShareGPT
+* OpenAssistant
+* Stack-Exchange-Paired (heavily filtered as language detection is harmed by the high prevalence of math/programming syntax)
+
 All datasets are ordered by languages and follow the established structure of Alpaca-style datasets (instruction-input-output). EUinstruct can consequently be used to train a language-specific LLM or a multilingual LLM when relevant. For instance a "Swiss LLM" could cross the German-speaking, French-speaking and Italian-speaking dataset.
 
 The provenance of each instruction is integrated at the data level with a "source" attribute. This makes it easy to filter in or out some dataset. Additionally, each instruction has a unique ID that is either the original one from the dataset or, by default, the ordering id. A sample of italian-speaking instruction is structured this way:
