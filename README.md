@@ -3,7 +3,7 @@ EUInstruct is a repository of instruction dataset in (non-English) European lang
 
 Following the release of LLama in February 2023, there has been a swift development of instruction datasets to fine-tune LLMs for conversational uses or on specific tasks. Yet theses dataset are largely focused on English and to a lesser extent on Chinese. 
 
-This project strives to compile the available instruction dataset for European languages, with the wider aim to support a wider multilingual ecosystem of open source LLMs. This include two major collections:
+This project strives to compile the available instruction dataset for European languages, in the spirit of supporting a wider multilingual ecosystem of open source LLMs. This include two major collections:
 * Original instructions in 28 European languages.
 * Translated instructions in a smaller selections of European languages.
 
