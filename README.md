@@ -3,7 +3,7 @@
   <img height="150" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/320px-Flag_of_Europe.svg.png">
 </p>
 
-EUInstruct is a repository of instruction dataset in (non-English) European languages to finetune LLMs.
+EUInstruct is a repository of instruction dataset in (non-English) European languages to finetune LLMs curated by OpSci.
 
 Following the release of LLama in February 2023, there has been a swift development of instruction datasets to fine-tune LLMs for conversational uses or on specific tasks. Yet theses dataset are largely focused on English and to a lesser extent on Chinese. 
 
