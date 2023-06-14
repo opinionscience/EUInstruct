@@ -33,8 +33,8 @@ This directory compiles the available non-English and non-Chinese instructions i
 * ShareGPT
 * OpenAssistant
 * Flan-v2 (100k resampled)
-* [Self-Instruct](https://raw.githubusercontent.com/yizhongw/self-instruct/main)
-* Stack-Exchange-Paired (heavily filtered as language detection is harmed by the high prevalence of math/programming syntax)
+* [Self-Instruct](https://github.com/yizhongw/self-instruct)
+* Stack-Exchange-Paired (heavily filtered as language detection is harmed by the high prevalence of math/programing content)
 
 ## Translated instructions
 This directory includes versions of English-speaking datasets that have been automatically translated. This include mostly Alpaca.
