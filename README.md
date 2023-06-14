@@ -1,5 +1,5 @@
 # EUInstruct
-![Flag of Europe](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/640px-Flag_of_Europe.svg.png)
+![Flag of Europe](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/320px-Flag_of_Europe.svg.png)
 
 EUInstruct is a repository of instruction dataset in (non-English) European languages to finetune LLMs.
 
