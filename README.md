@@ -7,14 +7,27 @@ This project strives to compile the available instruction dataset for European l
 * Original instructions in 28 European languages identified through lang_detect.
 * Translated instructions in a smaller selections of European languages.
 
-Our main sources include for original instructions:
+## Original instructions
+
+This directory compiles the available non-English and non-Chinese instructions in the leading multilingual datasets:
 * Guanaco
 * ShareGPT
 * OpenAssistant
 * Stack-Exchange-Paired (heavily filtered as language detection is harmed by the high prevalence of math/programming syntax)
 
+## Translated instructions
+This directory includes versions of English-speaking datasets that have been automatically translated. This include mostly Alpaca.
+
+When available these datasets are both larger and both comprehensive. Yet, they will obviously not include cultural topics specific to the language and may miss out on important nuances and language varieties. Some instructions can also be wrong as they rely on meta-analysis of the language itself (grammatical correction for instance).
+
+The main sources of translations are:
+* Vicogne for French (Alpaca, ShareGPT and additional sources…)
+* Stambacco for Italian (Alpaca)
+* Zicklein for German (Alpaca)
+* ArmandDS for Spanish (Alpaca)
+
 ## Structure
-All datasets are ordered by languages and follow the established structure of Alpaca-style datasets (instruction-input-output). EUinstruct can consequently be used to train a language-specific LLM or a multilingual LLM when relevant. For instance a "Swiss LLM" could cross the German-speaking, French-speaking and Italian-speaking dataset.
+All the original datasets have been normalized following the established structure of Alpaca-style datasets (instruction, output and, when available, input). The files are structured by languages rather than provenance. EUinstruct can consequently be used to train a language-specific LLM or a multilingual LLM when relevant. For instance a "Swiss LLM" could cross the German-speaking, French-speaking and Italian-speaking dataset.
 
 The provenance of each instruction is integrated at the data level with a "source" attribute. This makes it easy to filter in or out some dataset. Additionally, each instruction has a unique ID that is either the original one from the dataset or, by default, the ordering id. A sample of italian-speaking instruction is structured this way:
 
