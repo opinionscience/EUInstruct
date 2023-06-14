@@ -1,6 +1,6 @@
 # EUInstruct
 <p align="center">
-  <img width="460" height="300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/320px-Flag_of_Europe.svg.png">
+  <img height="250" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/320px-Flag_of_Europe.svg.png">
 </p>
 
 EUInstruct is a repository of instruction dataset in (non-English) European languages to finetune LLMs.
