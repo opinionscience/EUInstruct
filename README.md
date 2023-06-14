@@ -34,7 +34,7 @@ This directory compiles the available non-English and non-Chinese instructions i
 * Guanaco
 * ShareGPT
 * OpenAssistant
-* Flan-v2 (100k resampled)
+* (Flan-v2 (100k resampled))[https://beaker.org/api/v3/datasets/01GZTTS2EJFPA83PXS4FQCS1SA/files/flan_v2_resampled_100k.jsonl]
 * [Self-Instruct](https://github.com/yizhongw/self-instruct)
 * Stack-Exchange-Paired (heavily filtered as language detection is harmed by the high prevalence of math/programing content)
 
