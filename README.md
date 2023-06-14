@@ -21,7 +21,7 @@ This directory includes versions of English-speaking datasets that have been aut
 When available these datasets are both larger and both comprehensive. Yet, they will obviously not include cultural topics specific to the language and may miss out on important nuances and language varieties. Some instructions can also be wrong as they rely on meta-analysis of the language itself (grammatical correction for instance).
 
 The main sources of translations are:
-* Vicogne for French (Alpaca, ShareGPT and additional sources…)
+* [Vicogne](https://github.com/bofenghuang/vigogne) for French (Alpaca, ShareGPT and additional sources…)
 * Stambacco for Italian (Alpaca)
 * Zicklein for German (Alpaca)
 * ArmandDS for Spanish (Alpaca)
