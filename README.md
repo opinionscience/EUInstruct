@@ -36,7 +36,7 @@ This directory compiles the available non-English and non-Chinese instructions i
 * OpenAssistant
 * [Flan-v2 (100k resampled)](https://beaker.org/api/v3/datasets/01GZTTS2EJFPA83PXS4FQCS1SA/files/flan_v2_resampled_100k.jsonl)
 * [Self-Instruct](https://github.com/yizhongw/self-instruct)
-* Stack-Exchange-Paired (heavily filtered as language detection is harmed by the high prevalence of math/programing content)
+* [Stack-Exchange-Paired](https://huggingface.co/datasets/lvwerra/stack-exchange-paired) (heavily filtered as language detection is harmed by the high prevalence of math/programing content)
 
 ## Translated instructions
 This directory includes versions of English-speaking datasets that have been automatically translated. This include mostly Alpaca.
