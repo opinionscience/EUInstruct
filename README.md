@@ -1,4 +1,6 @@
 # EUInstruct
+![Flag of Europe](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/640px-Flag_of_Europe.svg.png)
+
 EUInstruct is a repository of instruction dataset in (non-English) European languages to finetune LLMs.
 
 Following the release of LLama in February 2023, there has been a swift development of instruction datasets to fine-tune LLMs for conversational uses or on specific tasks. Yet theses dataset are largely focused on English and to a lesser extent on Chinese. 
@@ -6,6 +8,8 @@ Following the release of LLama in February 2023, there has been a swift developm
 This project strives to compile the available instruction dataset for European languages, in the spirit of supporting a wider multilingual ecosystem of open source LLMs. This include two major collections:
 * Original instructions in 28 European languages identified through lang_detect.
 * Translated instructions in a smaller selections of European languages.
+
+As a caveat, **instructions are not yet deduplicated**. Since we have merged different sources, redundancies are likely. We will proceed to create a deduplicated version once we have finished collecting all the main sources.
 
 ## Structure
 All the original datasets have been normalized following the established structure of Alpaca-style datasets (instruction, output and, when available, input). The files are structured by languages rather than provenance. EUinstruct can consequently be used to train a language-specific LLM or a multilingual LLM when relevant. For instance a "Swiss LLM" could cross the German-speaking, French-speaking and Italian-speaking dataset.
@@ -28,6 +32,8 @@ This directory compiles the available non-English and non-Chinese instructions i
 * Guanaco
 * ShareGPT
 * OpenAssistant
+* Flan-v2 (100k resampled)
+* [Self-Instruct](https://raw.githubusercontent.com/yizhongw/self-instruct/main)
 * Stack-Exchange-Paired (heavily filtered as language detection is harmed by the high prevalence of math/programming syntax)
 
 ## Translated instructions
