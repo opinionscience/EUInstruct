@@ -1,1 +1,0 @@
-[{"instruction": "對於政策的描述，判斷它的正當性。你需要回答\"justified\"或\"unjustified\"。", "input": "教授發現學生開始默坐無聊的課堂，所以他擴大了作業的要求。", "output": "justified", "language": "lv", "instruction_id": 310207, "source": "Guanaco"}]
